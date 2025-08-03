@@ -125,7 +125,7 @@ public class psychoQuiz {
         String data = dzisiaj.format(formatter);
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("results.txt", true))) {
-            String linia = imie + " | " + licznik + "/10 | " + data;
+            String linia = imie + " | " + licznik + "/10pkt | " + data;
             writer.write(linia);
             writer.newLine();
         } catch (IOException e) {
@@ -135,6 +135,7 @@ public class psychoQuiz {
 
     }
 }
+
 
 
 
