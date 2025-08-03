@@ -1,0 +1,2 @@
+# psychoQuiz
+Quiz pytania psychologiczne
